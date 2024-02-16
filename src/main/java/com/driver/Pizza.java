@@ -72,7 +72,7 @@ public class Pizza {
         }
         if(takeAway)
             bill+="Paperbag Added: 20\n";
-        bill+="Total Price: "+price+"\n";
+        bill+="Total Price: "+price;
         return this.bill;
     }
 }
